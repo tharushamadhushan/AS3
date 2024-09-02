@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CASE 03</title>
+    <style>
+        #frame{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: 10px solid darkgoldenrod;
+            border-radius: 100%;
+            position: fixed;
+            z-index: 9999;
+
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #frame2{
+            width: 180px;
+            aspect-ratio: 1/1;
+            border: 10px solid red;
+            border-radius: 100%;
+            position: fixed;
+            z-index: 9999;
+
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        section>div{
+            width: 180px;
+            aspect-ratio: 1/1;
+            background-color: lime;
+            border-radius: 100%;
+            position: relative;
+
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            margin-top: 220px;
+            margin-bottom: 220px;
+        }
+        section>div>span{
+            position: absolute;
+            color: black;
+            width: fit-content;
+            height: fit-content;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="frame">
+    <div id="frame2">
+    </div>
+</div>
+
+<section>
+    <div>
+        <span>hello</span>
+    </div>
+    <div>
+        <span>hello</span>
+    </div>
+    <div>
+        <span>hello</span>
+    </div>
+</section>
+
+</body>
+</html>
